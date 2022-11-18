@@ -1,0 +1,91 @@
+body {
+    background-color: #EDEFEE;
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header > img {
+    display: block;
+}
+
+
+nav ul {
+    list-style: none;
+    text-align: right;
+    padding-right: 5px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: hotpink;
+    text-decoration: underline;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex; 1; 
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+img {
+    width: 100%;
+
+}
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+}
+
+footer div p {
+    text-align: left;
+
+}
+
+.site-logo {
+    height: 300px;
+    width: 300px;
+
+}
+
+#promotion {
+    background-color: white;
+    padding: 5px;
+}
+
+.container {
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+    justify-content: space-evenly;
+}
